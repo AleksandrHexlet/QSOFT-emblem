@@ -1,2 +1,1 @@
-# QSOFT-emblem
-Test from QSOFT
+# Тестовое задание компании QSOFT

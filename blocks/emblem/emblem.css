@@ -1,0 +1,21 @@
+@import url('../emblem/__item/emblem__name.css');
+@import url('../emblem/__item/emblem__image.css');
+@import url('../emblem/__item/emblem__item.css');
+@import url('../emblem/__title/emblem__title.css');
+@import url('../emblem/__item/emblem__block.css');
+@import url('');
+@import url('');
+
+.emblem {
+    max-width: 1440px;
+    margin: 0px 128px 85px;
+
+}
+
+@media all and (max-width : 500px) {
+    .emblem {
+
+    width: 95vw;
+    margin: auto;
+    }
+}

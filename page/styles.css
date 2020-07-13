@@ -1,0 +1,75 @@
+@import url('../blocks/emblem/emblem.css');
+@import url('../blocks/n-favicon/favicon.css');
+
+
+.html {
+    background-color: red;
+}
+
+.page {
+
+    font-family: Inter, Arial, sans-serif;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+
+
+@media all and (min-width : 1024px)and (max-width : 1440px) {
+    .page {
+
+        margin: auto;
+        overflow: hidden;
+
+    }
+}
+
+@media all and (min-width : 768px) and (max-width : 1024px) {
+    .page {
+
+
+        margin: auto;
+        overflow: hidden;
+    }
+}
+
+@media all and (min-width : 425px) and (max-width : 768px) {
+    .page {
+
+        margin: auto;
+        overflow: hidden;
+
+    }
+}
+
+@media all and (max-width : 425px) {
+    .page {
+
+        margin: auto;
+        overflow: hidden;
+    }
+}
+
+@media all and (max-width : 320px) {
+    .page {
+
+        margin: auto;
+        overflow: hidden;
+    }
+}
+
+blockquote {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+@media all and (min-width : 320px) and (max-width : 769px) {
+    blockquote {
+        margin: 0;
+        padding: 0;
+        order: 1;
+    }
+}
